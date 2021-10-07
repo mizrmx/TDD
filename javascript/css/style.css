@@ -12,7 +12,7 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
-	background-image: url(../images/kinglogo.png);
+	background-image: url(../img/kinglogo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
@@ -71,26 +71,30 @@ li {
 	border-top: 1px solid #e99295;
 	border-bottom: 1px solid #914141;}
 
-.cool {
+.cool 
+{
 	background-color: #6cc0ac;
 	color: #fff;
 	text-shadow: 2px 2px 1px #3b6a5e;
 	border-top: 1px solid #7ee0c9;
-	border-bottom: 1px solid #3b6a5e;}
+	border-bottom: 1px solid #3b6a5e;
+}
 
-.complete {
+.complete 
+{
   background-color: #999;
 	color: #fff;
-	background-image: url("../images/icon-trash.png");
+	background-image: url("../img/icon-trash.png");
 	background-position: center, right;
 	background-repeat: no-repeat;
 	border-top: 1px solid #666;
-	text-shadow: 2px 2px 1px #333;}
+	text-shadow: 2px 2px 1px #333;
+}
 
 li a {
 	color: #fff;
 	text-decoration: none;
-	background-image: url("../images/icon-link.png");
+	background-image: url("../img/icon-link.png");
 	background-position: center, right;
 	background-repeat: no-repeat;
     padding-right: 36px;}
@@ -138,7 +142,7 @@ p {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     h1{
-        background-image: url(../images/2xkinglogo.png);
+        background-image: url(../img/2xkinglogo.png);
         background-size: 72px 72px;
     }
 }
